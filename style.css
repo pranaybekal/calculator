@@ -9,7 +9,18 @@ table{
 height: 100%;
 }
 body{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background: #4DA0B0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#bckspace
+{
+    width: 54px;
+    height: 60px;
+    margin-left: 10px;
 }
 
 input{
@@ -48,4 +59,5 @@ input{
 }
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
